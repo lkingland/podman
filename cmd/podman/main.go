@@ -29,6 +29,7 @@ import (
 )
 
 func main() {
+	fmt.Printf("#### main ####")
 	if reexec.Init() {
 		// We were invoked with a different argv[0] indicating that we
 		// had a specific job to do as a subprocess, and it's done.
